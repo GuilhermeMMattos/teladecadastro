@@ -1,21 +1,26 @@
 .main{
 
-
 }
 
 .contact{
-   
+   text-align: center;
 
 
 }
 
 .login{
-
+   text-align: center;
 
 }
 
 .items{
-   margin: 10px;
-   padding: 10px;
+   text-align: center
+}
+
+.button{
+   text-align: center;
+}
+.tabela{
+   margin-left: 50%;
 
 }

@@ -5,34 +5,50 @@
     <link rel="stylesheet" href="css.css">
     <title>Document</title>
 </head>
+<header>
+    <table class="tabela">
+        <tr>
+            <th>Início</th>
+            <th>Saiba mais</th>
+            <th>Ajuda</th>
+            <th>
+                <input type="search">
+                <img src="Search.png" width="30px" height="30px">
+            </th>
+        </tr>
+    </table>
+</header>
 <body>
     <div class="main">
         <h1>Cadastre-se!</h1>
         <hr>
     </div>
     <div class="login">
-        <div>Dados de login</div>
+        <div><h4>Dados de login</h4></div>
         <div>
             <form action="">
                 <label for="CPF">CPF:</label>
-                <br>
                 <input name="CPF" id="CPF" type="text">
+                <br>
+                <br>
                 <label for="email">E-mail:</label>
                 <input name="email" id="email" type="email">
                 <label for="senha">Senha:</label>
                 <input name="senha" id="senha" type="password">
         </div>
     </div>
+    <br>
     <hr>
     <div class="contact">
         <form action="">
+            <br>
         <div class="items">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome">
             <label for="sobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="sobrenome">
         </div>
-            <br>
+        <br>
             <div class="items">
             <label for="nascimento">Data de nascimento:</label>
             <input type="date" name="nascimento" id="nascimento">
@@ -80,7 +96,13 @@
             <label for="celular">DDD+Celular</label>
             <input type="text" name="celular" id="celular">
         </div>
+        <br>
         </form>
+    </div>
+    <hr>
+    <br>
+    <div class="button">
+        <button>Cadastrar</button>
     </div>
 </body>
 </html>
